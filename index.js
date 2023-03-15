@@ -1,5 +1,5 @@
 var express = require('express')
-// Import required modules
+var app = express(); // Import required modules
 const xml = require('xml');
 
 app.set('port', (process.env.PORT || 5001))
