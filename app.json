@@ -1,0 +1,5 @@
+{
+  "name": "static-rss",
+  "description": "Generates one new RSS entry a day",
+  "repository": "https://github.com/twentworth12/static-rss"
+}
