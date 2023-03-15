@@ -22,6 +22,7 @@ const feedData = {
       link: 'https://podcasts.apple.com/us/podcast/click-here/id1225077306',
       description: 'Every Tuesday, Click Here tells stories about the people and ideas shaping our digital world. We go beyond the headlines, taking listeners on a journey behind-the-scenes of some of today’s biggest cyber and intelligence news. Hosted by former NPR Investigations correspondent Dina Temple-Raston',
       pubDate: new Date(),
+      media: '<media:content medium="image" url="https://cms.therecord.media/uploads/2021_04_Code_computer_screen_87538db80f.jpg"/>'
       guid: '1',
     },
   ],
@@ -47,6 +48,7 @@ const rssXml = xml(
               { link: item.link },
               { description: item.description },
               { pubDate: item.pubDate.toISOString() },
+              { media: item.media }
               { guid: item.guid },
             ],
           })),
