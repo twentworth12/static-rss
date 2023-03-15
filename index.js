@@ -48,7 +48,7 @@ const rssXml = xml(
               { link: item.link },
               { description: item.description },
               { pubDate: item.pubDate.toISOString() },
-              { media: item.media }
+              { media: item.media },
               { guid: item.guid },
             ],
           })),
