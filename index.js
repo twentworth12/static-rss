@@ -18,18 +18,11 @@ const feedData = {
   description: 'A sample RSS feed created using JavaScript',
   items: [
     {
-      title: 'First Item',
-      link: 'https://example.com/first-item',
-      description: 'This is the first item in the RSS feed',
+      title: 'Click Here Podcast',
+      link: 'https://podcasts.apple.com/us/podcast/click-here/id1225077306',
+      description: 'Every Tuesday, Click Here tells stories about the people and ideas shaping our digital world. We go beyond the headlines, taking listeners on a journey behind-the-scenes of some of today’s biggest cyber and intelligence news. Hosted by former NPR Investigations correspondent Dina Temple-Raston',
       pubDate: new Date(),
       guid: '1',
-    },
-    {
-      title: 'Second Item',
-      link: 'https://example.com/second-item',
-      description: 'This is the second item in the RSS feed',
-      pubDate: new Date(),
-      guid: '2',
     },
   ],
 };
