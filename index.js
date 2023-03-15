@@ -65,7 +65,7 @@ const rssXml = xml(
 );
 
 // Output the generated RSS XML
-console.log(rssXml);
+response.send(rssXml);
 
 })
 
